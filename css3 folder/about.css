@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image: url(images/pexels-photo-4501411.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+  margin-top: 200px;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.para p{
+    font-size: 1rem;
+    margin-top: 23px;
+}
+/* 2pgae */
+.nextpage-2 h2{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    font: 1em sans-serif;
+}
+.nextpage-2 h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.big{
+    height: 100vh;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+
+}
+.left{
+ width: 50%;
+ height: 80vh;
+ /* border: 2px solid rgb(32, 22, 22); */
+}
+.head{
+    text-align: center;
+    padding-top: 34px;
+}
+.tail{
+    text-align: center;
+    padding-top: 30px;
+}
+.header-section{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.right{
+    width: 50%;
+    height: 80vh;
+    /* border: 2px solid black; */
+}
+/* 3page */
+.section1{
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid red; */
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e2f38b67aa6e56639487cb0f/ed-min.jpg);
+    /* background-position: 50% 50%;  */
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+.box1{
+    width: 100px;
+    height: 20vh;
+    /* border: 1px solid rgb(158, 17, 17); */
+    color: blue;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-left: 750px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.box1.fas fa-ice-cream{
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.section-4{
+    width: 100%;
+    height: 150vh;
+    /* border: 2px solid rosybrown; */
+    display: flex;
+}
+.cake1{
+    margin-left: 110px;
+    margin-top: 110px;
+    /* position: fixed; */
+}
+.content1{
+    text-align: center;
+    padding-top: 200px;
+    line-height: 1.6rem;
+}
+.paragraph h3{
+    padding-left: 130px;
+}
+.para1{
+    padding-left: 80px;
+}
+.cake2{
+    margin-left:100px;
+    height: 355px;
+    margin-top: 150px;
+}
+.cake3{
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+/*  */
+.container-1{
+  /* background-color: aqua; */
+  margin-top: -200px;
+}
+.image img{
+  height:300px;
+  width:300px;
+  box-shadow: 20px 20px grey;
+}
+
+.grid{
+  display:flex;
+  background-color:light-grey;
+  padding:100px;
+}
+.text{
+  padding:5px 180px 50px;
+}
+.under-score{
+    padding-top: 20px;
+}
+/*  */
+
+/* custom font from google fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/*Basic styling and positioning of elements */
+body {color:#444;font-size:16px;}
+#some-box {background:#fff;padding:40px 0px 80px;font-family:'Open Sans', sans-serif;}
+#some-box h1 {text-align:center;}
+#some-box h3 {font-size:26px;}
+#some-box a {color:#70BCB8;text-decoration:none;display:block;font-weight:bold;}
+#some-box a:hover {color:#8E7BB2;}
+article.row {width:100%;max-width:800px;margin:0 auto;padding:45px 0;}
+article.row div {width:49.4%;display:inline-block;position:relative;}
+
+
+ #idea-two img{position:absolute;bottom:-20px;left:50px;}
+@media(max-width:750px){
+
+  /* This resizes the divs that contain your content to fill the width of the page so that they stack vertically */
+  article.row div {min-width:300px;width:90%;margin:0 5%;text-align:center;display:block;}
+  
+  /* Center your text */
+	#some-other-box h3 {text-align:center;}
+
+  /* Center your image */
+	#idea-two {position:relative;margin:auto;left:inherit;bottom:inherit;}
+
+  #idea-two {display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;}
+	#idea-two div:first-of-type {-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;box-ordinal-group:2;}
+}
+
+
+/*  */
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; 
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
